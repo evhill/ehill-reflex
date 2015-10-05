@@ -29,5 +29,5 @@ http://stackoverflow.com/questions/4153517/how-exactly-does-the-androidonclick-x
 
 Abram Hindle - all retrieved Oct 3, 2015
 http://youtu.be/5PPD0ncJU1g
-http://youtu.be/VKVYUXNuDDg
+http://youtu.be/VKVYUXNuDDg 
 http://youtu.be/k9ZNbsc0Qgo
