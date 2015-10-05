@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/YourStats"
+        android:id="@+id/StatsScreenTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ClearStats"
+        android:id="@+id/ClearButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/MaximumTime"
+        android:id="@+id/MaximumTimeField"
+        android:layout_below="@+id/StatsScreenTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/MinimumTime"
+        android:id="@+id/MinimumTimeField"
+        android:layout_below="@+id/MaximumTimeField"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/MedianTime"
+        android:id="@+id/MedianTimeField"
+        android:layout_below="@+id/MinimumTimeField"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/AverageTime"
+        android:id="@+id/AverageTimeField"
+        android:layout_below="@+id/MedianTimeField"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/BuzzerCounts"
+        android:id="@+id/BuzzerCountField"
+        android:layout_below="@+id/AverageTimeField"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+</RelativeLayout>

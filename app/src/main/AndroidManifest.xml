@@ -8,13 +8,37 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ReflexActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReactionTestActivity"
+            android:label="ReactionTimeMode"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elyse.ehill_reflex.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GameShowActivity"
+            android:label="GameShowMode"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elyse.ehill_reflex.MainActivity" />
+        </activity>
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="Statistics Mode"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.elyse.ehill_reflex.MainActivity" />
         </activity>
     </application>
 

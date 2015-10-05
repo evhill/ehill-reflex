@@ -3,4 +3,37 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="WelcomeText">Welcome to Buzzer!</string>
+    <string name="ReactionTest"> Test Your Reaction Time</string>
+    <string name="GameShow">Play With Your Friends</string>
+    <string name="Statistics">Your Stats</string>
+    <string name="ReactionTestWelcome">Click the button as fast as you can when prompted</string>
+    <string name="ReactionWelcomeStart">Begin testing!</string>
+    <string name="WaitToClick">Wait...</string>
+    <string name="ClickHere">Click!</string>
+    <string name="ClickedBeforePrompt">Wait for the prompt!</string>
+    <string name="ResetTimer">Reset</string>
+    <string name="ReactionTime">Your reaction time: </string>
+    <string name="SelectNumberOfPlayers">How many players?</string>
+    <string name="Player1Wins">Player one wins!</string>
+    <string name="Player2Wins">Player two wins!</string>
+    <string name="Player3Wins">Player three wins!</string>
+    <string name="Player4Wins">Player four wins!</string>
+    <string name="OnePlayerButton">One</string>
+    <string name="TwoPlayerButton">Two</string>
+    <string name="ThreePlayerButton">Three</string>
+    <string name="FourPlayerButton">Four</string>
+    <string-array name="NumberOfPlayers">
+        <item>@string/TwoPlayerButton</item>
+        <item>@string/ThreePlayerButton</item>
+        <item>@string/FourPlayerButton</item>
+    </string-array>
+    <string name="YourStats">Your Statistics</string>
+    <string name="ClearStats">Clear Statistics</string>
+    <string name="MinimumTime">Minimum Time:</string>
+    <string name="MaximumTime">Maximum Time:</string>
+    <string name="AverageTime">Average Time:</string>
+    <string name="MedianTime">Median Time:</string>
+    <string name="BuzzerCounts">Buzzer count for:</string>
+
 </resources>
