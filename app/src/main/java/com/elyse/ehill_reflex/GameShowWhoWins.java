@@ -38,7 +38,8 @@ public class GameShowWhoWins extends GameShowActivity{
                 .setPositiveButton(R.string.ResetTimer, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        allStats.updateWinner(player);
+                        allStats.IncrementWinnerCount(player);
+                        //allStats.updateWinner(player);
                     }
                 });
         winningPlayer.show();

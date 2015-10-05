@@ -32,8 +32,6 @@ public class ReactionTimer {
         this.reactionTime = 0;
     }
 
-    //Bill the Lizard - retrieved Oct 4, 2015
-    //http://stackoverflow.com/questions/6078157/random-nextfloat-is-not-applicable-for-floats
     public void setRandomTime() {
         Random random = new Random();
         this.randomTime = random.nextInt(maxMilli - minMilli) + minMilli;

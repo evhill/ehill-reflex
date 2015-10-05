@@ -48,8 +48,6 @@ public class ReactionTestActivity extends MainActivity {
      * and then begins the timer.
      */
 
-    // Android Developers:
-    //      http://developer.android.com/guide/topics/ui/dialogs.html - Oct, 4, 2015
     public void ReactionTestWelcomeMessage(){
         AlertDialog.Builder welcome = new AlertDialog.Builder(ReactionTestActivity.this);
         welcome.setTitle(R.string.ReactionTestWelcome)
@@ -95,7 +93,7 @@ public class ReactionTestActivity extends MainActivity {
                         .setPositiveButton(R.string.ResetTimer, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                allStats.updateReactionTimes(reactionTime);
+                                allStats.addReactionTimes(reactionTime);
                                 ResetReactionView();
                             }
                         });

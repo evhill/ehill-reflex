@@ -26,7 +26,10 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    FileManager allStats = new FileManager();
+
+    Statistics allStats = new Statistics();
+    // Weird issue happening with this
+    // FileManager allStats = new FileManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,13 +37,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-
-    /*
-     * Instructions used from main Android Developer Instructions for all three methods
-     *
-     * http://developer.android.com/training/basics/firstapp/starting-activity.html
-     * retrieved: Oct 3, 2015
-     */
 
     /* Called when the user clicks on the "Test Your Reaction" button */
     public void startReactionTest(View view){

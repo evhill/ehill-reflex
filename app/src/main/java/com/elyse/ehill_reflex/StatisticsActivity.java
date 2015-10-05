@@ -37,6 +37,7 @@ public class StatisticsActivity extends MainActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.statistics);
         clearButton =(Button) findViewById(R.id.ClearButton);
 
@@ -57,7 +58,8 @@ public class StatisticsActivity extends MainActivity{
     public void ClearStatistics(){
         clearButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                allStats.clearAllStatistics();
+                allStats.clearAll();
+                //allStats.clearAllStatistics();
             }
         });
     }
