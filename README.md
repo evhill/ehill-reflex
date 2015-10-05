@@ -9,6 +9,9 @@ ehill-reflex is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with ehill-reflex.  If not, see <http://www.gnu.org/licenses/>
 
+# Documentaion
+Both the UML and the app video are located in 
+    https://github.com/evhill/ehill-reflex/tree/master/doc
 
 # Resrouces Used:
     
