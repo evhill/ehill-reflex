@@ -36,8 +36,8 @@ public class GameShowActivity extends MainActivity{
     Button playerThree;
     Button playerFour;
 
-    String playerID;
-    int player;
+    private String playerID;
+    private int player;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,7 +110,7 @@ public class GameShowActivity extends MainActivity{
 
     }
 
-    /* This was supposed to be a more general alert case to show who wins for each given
+    /* This was supposed to be a more general alert case in GameShowWhoWins to show who wins for each given
     * round. However it's not popping up and I'm not really sure why. Sorry.
     * */
     public void WinnerAlertMessage(String ID){

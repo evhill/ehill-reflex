@@ -24,14 +24,16 @@ import android.view.View;
  */
 public class GameShowWhoWins extends GameShowActivity{
 
-    String playerID;
-    int player;
+    private String playerID;
+    private int player;
 
     public void setPlayerID(int i){
         playerID = "Player" + i + "Wins";
         player = i;
     }
 
+    /* Meant to be a separate controller class for generating a winner message based on who clicks
+    * the button first. However I had problems getting it to work*/
     public void WinnerAlertMessage(Context context){
         AlertDialog.Builder winningPlayer = new AlertDialog.Builder(context);
         winningPlayer.setTitle(playerID)
